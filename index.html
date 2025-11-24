@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Affordable Data Tracker | World Iconic</title>
+    <meta name="description" content="Affordable Data Tracker by Samuel Ivan Annan. Discover cheap data bundles and call packages across multiple sites.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Affordable Data Tracker | World Iconic">
+    <meta property="og:description" content="Track cheap data bundles and call packages across various sites. Created by Samuel Ivan Annan, 2025.">
+    <meta property="og:image" content="link-to-your-image.jpg">
+    <meta property="og:url" content="https://your-netlify-site.netlify.app">
+
+    <!-- Gradient Background & Styling -->
+    <style>
+        /* Full screen gradient */
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #fff;
+            background-color: rgba(0,0,0,0.2);
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: rgba(255,255,255,0.3);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8em;
+            color: rgba(255,255,255,0.8);
+        }
+    </style>
+
+    <!-- Auto-switch script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var isMobileUA = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            var isNarrowScreen = window.innerWidth <= 900; 
+
+            if (isMobileUA || isNarrowScreen) {
+                window.location.href = '/mobile/res/index.html';
+            } else {
+                window.location.href = '/desktop/res/index.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <h3>Redirecting to Affordable Data Tracker…</h3>
+    <p>If the redirect does not work, click here:</p>
+    <a href="/desktop/res/index.html">Desktop Version</a> 
+    <a href="/mobile/res/index.html">Mobile Version</a>
+
+    <footer>
+        &copy; 2025 Samuel Ivan Annan | World Iconic MD
+    </footer>
+</body>
+</html>
